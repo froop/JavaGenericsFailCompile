@@ -1,9 +1,6 @@
 package failcompile;
 
-import java.io.Serializable;
-
-public class ValueBase<T extends Comparable<T> & Serializable> implements Value<T> {
-	private static final long serialVersionUID = 1L;
+public class ValueBase<T extends Comparable<T>> implements Value<T> {
 
 	@Override
 	public int compareTo(Value<T> o) {
