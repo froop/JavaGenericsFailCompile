@@ -1,4 +1,4 @@
 package failcompile;
 
-public class CompositeValue extends ValueBase<ComparableList<Value<?>>> {
+public interface CompositeValue extends Value<ComparableList<Value<?>>> {
 }
